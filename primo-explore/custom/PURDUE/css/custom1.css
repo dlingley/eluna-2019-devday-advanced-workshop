@@ -1,0 +1,312 @@
+
+div[id='main menu'] a:nth-child(1) span:after {
+    content: url(../img/bullhorn.png);
+    padding-left: 10px;
+    position: relative;
+    top: 10px;
+}
+
+div[id='main menu'] a:nth-child(1) span{
+  margin-top: -20px;
+
+    }
+
+div[id='main menu'] a:nth-child(1) {
+    width: 150px;
+
+}
+
+
+.prm-primary-bg.prm-hue1, prm-browse-search-bar.prm-hue1, prm-newspapers-search-bar.prm-hue1, prm-atoz-search-bar.prm-hue1, prm-search-bar.prm-hue1, prm-spinner.prm-hue1.overlay-cover.light-on-dark:after, prm-topbar .top-nav-bar {
+    border-top: 4px solid #bb8d0a;
+    border-left: 4px solid #383838;
+    background: url('../img/stripes.png') repeat;
+
+}
+
+
+.prm-primary-bg, prm-browse-search-bar, prm-newspapers-search-bar, prm-atoz-search-bar, prm-search-bar, prm-spinner.overlay-cover.light-on-dark:after {
+    background: #e5e1e1 url('../img/stripes.png') repeat;
+    border-bottom: 45px solid #171717;
+}
+
+prm-main-menu[menu-type=menu] .md-button {
+	font-size: .85em;
+}
+
+prm-logo .logo-image, prm-logo img {
+    max-height: 100%;
+}
+
+prm-logo .product-logo {
+    height: 100%;
+    padding: .40em;
+    padding-left: 5px ;
+}
+
+
+prm-browse-search-bar, prm-atoz-search-bar, prm-search-bar {
+    padding: 0.1em;
+    position: relative;
+    padding-bottom: 7px;
+}
+
+prm-user-area md-fab-toolbar.md-left .md-toolbar-tools, prm-user-area md-fab-toolbar.md-right .md-toolbar-tools {
+    margin: 0;
+    border-top: 4px solid #bb8d0a;
+    border-left: 4px solid #383838;
+    background: url('../img/stripes.png') repeat;
+}
+
+prm-user-area .user-menu-button .user-name {
+    color: #bb8d0a;
+}
+
+.hoverable-over-dark, .md-button.button-over-dark, prm-main-menu[menu-type=full] .md-button.md-focused, prm-main-menu[menu-type=full] .md-button .md-input-container-dummy>.md-select-dummy:focus, prm-main-menu[menu-type=full] .md-button:focus, prm-main-menu[menu-type=full] .md-button:hover, prm-main-menu[menu-type=full] .md-button md-select:focus, prm-main-menu[menu-type=full] .overlay-menu-item.md-focused, prm-main-menu[menu-type=full] .overlay-menu-item .md-input-container-dummy>.md-select-dummy:focus, prm-main-menu[menu-type=full] .overlay-menu-item:focus, prm-main-menu[menu-type=full] .overlay-menu-item:hover, prm-main-menu[menu-type=full] .overlay-menu-item md-select:focus, prm-main-menu[menu-type=full] md-card:focus, prm-main-menu[menu-type=full] md-card:hover, prm-topbar .md-button, prm-user-area .md-button.user-menu-button, prm-user-area md-fab-toolbar ._md-fab-action-item .md-button, prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container, prm-user-area md-fab-toolbar .md-fab-action-item .md-button, prm-user-area md-fab-toolbar .md-fab-action-item md-input-container {
+
+    color: #ffffff;
+}
+
+._md-focused.md-button.button-over-dark:not([disabled]), .hoverable-over-dark._md-focused:not([disabled]), .hoverable-over-dark.hovered:not([disabled]), .hoverable-over-dark.md-focused:not([disabled]), .hoverable-over-dark:focus:not([disabled]), .hoverable-over-dark:hover:not([disabled]), .hovered.md-button.button-over-dark:not([disabled]), .md-button.button-over-dark:focus:not([disabled]), .md-button.button-over-dark:hover:not([disabled]), .md-focused.md-button.button-over-dark:not([disabled]), prm-main-menu[menu-type=full] ._md-focused.md-button.md-focused:not([disabled]), prm-main-menu[menu-type=full] ._md-focused.md-button:not([disabled]):focus, prm-main-menu[menu-type=full] ._md-focused.md-button:not([disabled]):hover, prm-main-menu[menu-type=full] ._md-focused.overlay-menu-item.md-focused:not([disabled]), prm-main-menu[menu-type=full] ._md-focused.overlay-menu-item:not([disabled]):focus, prm-main-menu[menu-type=full] ._md-focused.overlay-menu-item:not([disabled]):hover, prm-main-menu[menu-type=full] .hovered.md-button.md-focused:not([disabled]), prm-main-menu[menu-type=full] .hovered.md-button:not([disabled]):focus, prm-main-menu[menu-type=full] .hovered.md-button:not([disabled]):hover, prm-main-menu[menu-type=full] .hovered.overlay-menu-item.md-focused:not([disabled]), prm-main-menu[menu-type=full] .hovered.overlay-menu-item:not([disabled]):focus, prm-main-menu[menu-type=full] .hovered.overlay-menu-item:not([disabled]):hover, prm-main-menu[menu-type=full] .md-button .md-input-container-dummy>._md-focused.md-select-dummy:not([disabled]):focus, prm-main-menu[menu-type=full] .md-button .md-input-container-dummy>.hovered.md-select-dummy:not([disabled]):focus, prm-main-menu[menu-type=full] .md-button .md-input-container-dummy>.md-focused.md-select-dummy:not([disabled]):focus, prm-main-menu[menu-type=full] .md-button .md-input-container-dummy>.md-select-dummy:focus:not([disabled]), prm-main-menu[menu-type=full] .md-button .md-input-container-dummy>.md-select-dummy:hover:not([disabled]):focus, prm-main-menu[menu-type=full] .md-button:focus:not([disabled]), prm-main-menu[menu-type=full] .md-button:hover:not([disabled]), prm-main-menu[menu-type=full] .md-button md-select._md-focused:not([disabled]):focus, prm-main-menu[menu-type=full] .md-button md-select.hovered:not([disabled]):focus, prm-main-menu[menu-type=full] .md-button md-select.md-focused:not([disabled]):focus, prm-main-menu[menu-type=full] .md-button md-select:focus:not([disabled]), prm-main-menu[menu-type=full] .md-button md-select:hover:not([disabled]):focus, prm-main-menu[menu-type=full] .md-focused.md-button:not([disabled]), prm-main-menu[menu-type=full] .md-focused.overlay-menu-item:not([disabled]), prm-main-menu[menu-type=full] .overlay-menu-item .md-input-container-dummy>._md-focused.md-select-dummy:not([disabled]):focus, prm-main-menu[menu-type=full] .overlay-menu-item .md-input-container-dummy>.hovered.md-select-dummy:not([disabled]):focus, prm-main-menu[menu-type=full] .overlay-menu-item .md-input-container-dummy>.md-focused.md-select-dummy:not([disabled]):focus, prm-main-menu[menu-type=full] .overlay-menu-item .md-input-container-dummy>.md-select-dummy:focus:not([disabled]), prm-main-menu[menu-type=full] .overlay-menu-item .md-input-container-dummy>.md-select-dummy:hover:not([disabled]):focus, prm-main-menu[menu-type=full] .overlay-menu-item:focus:not([disabled]), prm-main-menu[menu-type=full] .overlay-menu-item:hover:not([disabled]), prm-main-menu[menu-type=full] .overlay-menu-item md-select._md-focused:not([disabled]):focus, prm-main-menu[menu-type=full] .overlay-menu-item md-select.hovered:not([disabled]):focus, prm-main-menu[menu-type=full] .overlay-menu-item md-select.md-focused:not([disabled]):focus, prm-main-menu[menu-type=full] .overlay-menu-item md-select:focus:not([disabled]), prm-main-menu[menu-type=full] .overlay-menu-item md-select:hover:not([disabled]):focus, prm-main-menu[menu-type=full] md-card._md-focused:not([disabled]):focus, prm-main-menu[menu-type=full] md-card._md-focused:not([disabled]):hover, prm-main-menu[menu-type=full] md-card.hovered:not([disabled]):focus, prm-main-menu[menu-type=full] md-card.hovered:not([disabled]):hover, prm-main-menu[menu-type=full] md-card.md-focused:not([disabled]):focus, prm-main-menu[menu-type=full] md-card.md-focused:not([disabled]):hover, prm-main-menu[menu-type=full] md-card:focus:not([disabled]), prm-main-menu[menu-type=full] md-card:hover:not([disabled]), prm-topbar ._md-focused.md-button:not([disabled]), prm-topbar .hovered.md-button:not([disabled]), prm-topbar .md-button:focus:not([disabled]), prm-topbar .md-button:hover:not([disabled]), prm-topbar .md-focused.md-button:not([disabled]), prm-user-area ._md-focused.md-button.user-menu-button:not([disabled]), prm-user-area .hovered.md-button.user-menu-button:not([disabled]), prm-user-area .md-button.user-menu-button:focus:not([disabled]), prm-user-area .md-button.user-menu-button:hover:not([disabled]), prm-user-area .md-focused.md-button.user-menu-button:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item ._md-focused.md-button:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .hovered.md-button:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:focus:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-button:hover:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item .md-focused.md-button:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container._md-focused:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container.hovered:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container.md-focused:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:focus:not([disabled]), prm-user-area md-fab-toolbar ._md-fab-action-item md-input-container:hover:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item ._md-focused.md-button:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .hovered.md-button:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:focus:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-button:hover:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item .md-focused.md-button:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container._md-focused:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container.hovered:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container.md-focused:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:focus:not([disabled]), prm-user-area md-fab-toolbar .md-fab-action-item md-input-container:hover:not([disabled]) {
+    color: #dddddd;
+    background-color: #222222;
+}
+
+
+/*ADDED Pre-MAY 2017*/
+/* ADDED FOR CLICAKABLE LOGO */
+prm-logo div.product-logo {
+    display:none;
+}
+prm-logo div.product-logo-local {
+ display: inline-block;
+}
+
+/* added for submenu bar */
+.layout-fill{
+  min-height: auto;
+  height:auto;
+}
+.navbar-right{
+    float:right
+
+}
+.navbar-nav{
+    top:55px;
+    position:relative;
+ }
+
+.navbar-nav>li {
+    float: left;
+
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+    margin-left: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #9d9d9d;
+}
+
+.nav > li > a {
+    padding: 10px 15px;
+    color: #9d9d9d;
+}
+
+.nav>li>a:hover {
+    color: #fff;
+    background-color: transparent;
+    box-shadow:none;
+
+}
+
+.nav > li:nth-child(1) > a:before {
+/*content: url(../img/font-awesome_4-7-0_clock-o_15_0_9d9d9d_none.png);*/
+    background-image: url(../img/spritesheet.png);
+    content: " ";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-position: -5px -5px;
+    left: -2px;
+    top: 13px;
+}
+.nav > li:nth-child(1) > a:hover:before {
+    /*ontent: url(../img/font-awesome_4-7-0_clock-o_15_0_ffffff_none.png);*/
+    background-image: url(../img/spritesheet.png);
+    content: " ";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-position: -30px -5px;
+    left: -2px;
+    top: 13px;
+}
+
+.nav > li:nth-child(2) > a:before {
+/*content: url(../img/font-awesome_4-7-0_sort-alpha-asc_15_0_9d9d9d_none.png);*/
+    background-image: url(../img/spritesheet.png);
+    content: " ";
+    position:absolute;
+    width: 15px;
+    height: 15px;
+    background-position: -5px -30px;
+    left: -2px;
+    top: 13px;
+}
+.nav > li:nth-child(2) > a:hover:before{
+    /*content: url(../img/font-awesome_4-7-0_sort-alpha-asc_15_0_ffffff_none.png);*/
+    background-image: url(../img/spritesheet.png);
+    content: " ";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-position: -30px -30px;
+    left: -2px;
+    top: 13px;
+}
+
+.nav > li:nth-child(3) > a:before {
+/*content: url(../img/font-awesome_4-7-0_weixin_15_0_9d9d9d_none.png);*/
+    background-image: url(../img/spritesheet.png);
+    content: " ";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-position: -55px -5px;
+    left: -2px;
+    top: 13px;
+}
+.nav > li:nth-child(3) > a:hover:before {
+    /*content: url(../img/font-awesome_4-7-0_weixin_15_0_ffffff_none.png);*/
+    background-image: url(../img/spritesheet.png);
+    content: " ";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-position: -55px -30px;
+    left: -2px;
+    top: 13px;
+}
+
+/* Browzine styles */
+.browzine-icon  {
+  margin-right:2px;
+}
+
+.browzine-external-link {
+  width:15px;
+  height:15px;
+  min-width:15px;
+  min-height:15px;
+}
+
+/* make the lock always show on facets area */
+prm-facet prm-breadcrumbs div.md-chip-content strong {
+                padding-left: 22px;
+}
+prm-breadcrumbs .md-chips .md-chip-content .persistence-button {
+                opacity: 1;
+                transform: none;
+                padding-left: -2px;
+}
+prm-breadcrumbs .md-chip.persistent-facet strong {
+                padding-left: 0;
+}
+prm-breadcrumbs .md-chip.persistent-facet .md-chip-content .persistence-button {
+                left: -1px;
+}
+
+/* wrap overflow text in facets */
+prm-facet-exact .section-content .md-chips .md-chip .md-chip-content {
+  overflow: visible;
+  margin-bottom: 0.5em; 
+  width: 100%;
+}
+prm-facet-exact .md-chips .md-chip {
+  line-height: normal;
+  height: auto; 
+}
+prm-facet-exact .md-chips .md-chip .md-chip-content strong {
+  white-space: normal; 
+  overflow: visible; 
+}
+prm-facet-exact .section-content .md-chips .md-chip .md-chip-remove-container {
+  height: 28px; 
+  align-items: center;
+  align-self: center;
+  top: -5px;
+}
+prm-facet-exact .section-content .md-chips .md-chip strong+span {
+  margin-left: auto;
+  align-self: center;
+}
+prm-facet .sidebar-inner-wrapper {
+  margin-right: 0;
+}
+
+/* altmetrics */
+
+.full-view-section.loc-altmetrics{
+    background-color: #f3f3f3;
+    margin-top:0px;
+    padding-left: 3em;
+}
+
+/*- ########## ---------- NLNZ styling for Browse and Journal searching pages ---------- ########## */
+    .browseContent {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 22px;
+        text-align: center;
+        vertical-align: middle;
+		padding-top: 15px;
+		color: #7f7f7f; /* match design --rich 1-5 */
+    }
+    .browseContentHeadline {
+		font-size: 20px;
+        font-weight: bold;
+        line-height: 22px;
+		padding-bottom: 10px;
+    }
+	div.browseContent > p:nth-child(5) > img{
+		padding:25px; /* adjusted spacing --rich 9-5 */
+	}
+    .journalContent {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 22px;
+        padding-top: 60px; /* adjusted spacing - attempt to get journal and browse page to match --rich 9-5 */
+        text-align: center;
+        vertical-align: middle;
+		color: #7f7f7f; /* match design --rich 1-5 */
+    }
+    .journalContentHeadline {
+		font-size: 20px;
+        font-weight: bold;
+        line-height: 22px;
+		padding-bottom: 10px;
+    }
+	div.journalContent p img{
+		padding: 25px; /* adjusted spacing --rich 9-5 */
+	}
+	
+	prm-browse-search-bar md-select-value span{
+	    color: #1492C9;
+		line-height: 1.5rem; /* ensures text is not trimmed --rich 26-6 */
+	}
+span.umnHathiTrustLink {
+  margin-left: -5px;
+}
+
+span.umnHathiTrustLink md-icon svg {
+  height: 1.2em;
+  filter: grayscale(100%);
+}
+
+span.umnHathiTrustLink:hover md-icon svg {
+  filter: grayscale(0%);
+}
