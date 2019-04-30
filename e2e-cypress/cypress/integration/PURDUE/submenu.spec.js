@@ -2,13 +2,13 @@ describe('searchbar-submenu', () => {
   before(() => {
     cy.visit('/search?vid=PURDUE');
   })
-
+/*
   describe('submenu', () => {
     it('exists', function() {
       cy.get('search-bar-sub-menu > .layout-align-end-center')
       .should('exist')
     })
-    
+
       it('is visible', function() {
         cy.get('search-bar-sub-menu > .layout-align-end-center')
         .should('be.visible')
@@ -32,6 +32,7 @@ describe('searchbar-submenu', () => {
         it(`has a button with ${label} which opens ${link} when clicked`)
       })
     })
+    */
     describe('test search works', () => {
       it('get a search result', function() {
         cy.get('#searchBar')
