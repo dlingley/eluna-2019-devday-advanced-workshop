@@ -1,6 +1,6 @@
 describe('searchbar-submenu', () => {
   before(() => {
-    cy.visit('/search?vid=NYU');
+    cy.visit('/search?vid=PURDUE');
   })
 
   describe('submenu', () => {
@@ -13,7 +13,7 @@ describe('searchbar-submenu', () => {
         cy.get('search-bar-sub-menu > .layout-align-end-center')
         .should('be.visible')
       })
-    
+
     describe('has the correct menu items', () => {
       const submenuItems = [
         {
@@ -36,7 +36,7 @@ describe('searchbar-submenu', () => {
       it('get a search result', function() {
         cy.get('#searchBar')
         .type('purdue').should('have.value', 'purdue')
-      
+
         cy.get('.button-confirm > prm-icon > .md-primoExplore-theme').click()
 
       })
